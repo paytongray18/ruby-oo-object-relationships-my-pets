@@ -56,7 +56,6 @@ class Owner
     end
   end
 
-  
   def feed_cats
     Cat.all.select do |cat|
       if cat.owner == self
